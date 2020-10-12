@@ -12,5 +12,11 @@ int main()
     double gpa = 2.3;
     bool men = true;
 
+    string phrasesub;
+    phrasesub = phrase.substr(8,3);
+    characterName[0] = 'B';
+    cout << characterName[0] << endl;
+    cout << phrase.find("Academy", 0) << endl;
+    cout << phrasesub;
     return 0;
 }

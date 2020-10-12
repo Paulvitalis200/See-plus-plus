@@ -5,18 +5,14 @@ using namespace std;
 
 int main()
 {
-    // int age;
-    // cout << "Enter your age: " << endl;
-    // cin >> age;
+    double num1, num2;
 
-    // cout << "You are " << age << " years old.";
+    cout << "Enter first number: ";
+    cin >> num1;
 
-    string name;
-    cout << "Enter your name: " << endl;
-    // If we want to get a string of text
-    getline(cin, name);
-    // cin >> name;
+    cout << "Enter second number: ";
+    cin >> num2;
 
-    cout << "Hello " << name;
+    cout << num1 + num2;
     return 0;
 }

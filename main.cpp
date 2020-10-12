@@ -5,15 +5,18 @@ using namespace std;
 
 int main()
 {
-    // int wnum = 5;
-    // double dnum = 5.5;
+    // int age;
+    // cout << "Enter your age: " << endl;
+    // cin >> age;
 
-    // wnum++;
-    // cout << wnum;
+    // cout << "You are " << age << " years old.";
 
-    // cout << pow(2, 10);
+    string name;
+    cout << "Enter your name: " << endl;
+    // If we want to get a string of text
+    getline(cin, name);
+    // cin >> name;
 
-    cout << round(36) << endl;
-    cout << fmax(3, 10) << endl;
+    cout << "Hello " << name;
     return 0;
 }

@@ -5,14 +5,19 @@ using namespace std;
 
 int main()
 {
-    double num1, num2;
+    string firstWord, adjective, noun;
 
-    cout << "Enter first number: ";
-    cin >> num1;
+    cout << "Enter first word: ";
+    getline(cin, firstWord);
 
-    cout << "Enter second number: ";
-    cin >> num2;
+    cout << "Enter adjective: ";
+    getline(cin, adjective);
 
-    cout << num1 + num2;
+    cout << "Enter noun: ";
+    getline(cin, noun);
+
+    cout << firstWord << " is a man" <<endl;
+    cout << "He goes to " << adjective <<endl;
+    cout << "This is" << noun << "wrong" <<endl;
     return 0;
 }

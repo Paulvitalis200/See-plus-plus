@@ -1,22 +1,19 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    string characterName = "Kim";
-    int age = 23;
-    char grade = 'A';
-    string phrase = "Giraffe Academy";
-    float numFloat = 23.0;
-    double gpa = 2.3;
-    bool men = true;
+    // int wnum = 5;
+    // double dnum = 5.5;
 
-    string phrasesub;
-    phrasesub = phrase.substr(8,3);
-    characterName[0] = 'B';
-    cout << characterName[0] << endl;
-    cout << phrase.find("Academy", 0) << endl;
-    cout << phrasesub;
+    // wnum++;
+    // cout << wnum;
+
+    // cout << pow(2, 10);
+
+    cout << round(36) << endl;
+    cout << fmax(3, 10) << endl;
     return 0;
 }

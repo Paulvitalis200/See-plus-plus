@@ -5,19 +5,15 @@ using namespace std;
 
 int main()
 {
-    string firstWord, adjective, noun;
+    int luckyNums[] = {4, 8, 15, 23, 42};
 
-    cout << "Enter first word: ";
-    getline(cin, firstWord);
 
-    cout << "Enter adjective: ";
-    getline(cin, adjective);
+    // Tells C++ the length that this array should be
+    int randNums[20];
+    
 
-    cout << "Enter noun: ";
-    getline(cin, noun);
+    luckyNums[1] = 19;
+    cout << luckyNums[1] << endl;
 
-    cout << firstWord << " is a man" <<endl;
-    cout << "He goes to " << adjective <<endl;
-    cout << "This is" << noun << "wrong" <<endl;
     return 0;
 }

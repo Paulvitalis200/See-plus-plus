@@ -3,17 +3,14 @@
 
 using namespace std;
 
+
+void sayHi(string name, int age) {
+    cout << "Hello " << name << ", you are " << age <<endl;
+}
+
 int main()
 {
-    int luckyNums[] = {4, 8, 15, 23, 42};
-
-
-    // Tells C++ the length that this array should be
-    int randNums[20];
-    
-
-    luckyNums[1] = 19;
-    cout << luckyNums[1] << endl;
-
+    sayHi("Mike", 59);
+    sayHi("Paul", 29);
     return 0;
 }

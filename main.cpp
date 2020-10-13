@@ -3,13 +3,17 @@
 
 using namespace std;
 
-double cube(double num) {
-    double result = num * num * num;
-    return result;
-}
 int main()
 {
-    double ans = cube(3.2);
-    cout << ans << endl;
+    bool isMale = true;
+    bool isTall = true;
+    if(!isMale || !isTall){
+        cout << "Paul" << endl;
+    } else if (isMale && isTall) {
+         cout << "Naaaa" << endl;
+    }
+    else {
+        cout << "You are not male" << endl;
+    }
     return 0;
 }

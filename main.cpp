@@ -3,17 +3,13 @@
 
 using namespace std;
 
-// Function stub/function signature
-void sayHi(string name, int age);
-
+double cube(double num) {
+    double result = num * num * num;
+    return result;
+}
 int main()
 {
-    sayHi("Mike", 59);
-    sayHi("Paul", 29);
+    double ans = cube(3.2);
+    cout << ans << endl;
     return 0;
-}
-
-
-void sayHi(string name, int age) {
-    cout << "Hello " << name << ", you are " << age <<endl;
 }

@@ -3,21 +3,27 @@
 
 using namespace std;
 
+class Book {
+    public:
+        string title;
+        string author;
+        int pages;
+};
+
 int main()
 {
-    int age = 19;
-    int *pAge = &age;
-    double gpa = 2.7;
-    double *pGpa = &gpa;
-    string name = "Mike";
-    string *pName = &name;
-    
-    cout << "Age: " << pAge <<endl;
-    cout << "Gpa: " << pGpa <<endl;
-    cout << "Name: " << pName <<endl;
+    Book book1;
 
-    // Dereferencing a pointer
-    cout <<  *pAge << endl;
-    cout << *&gpa << endl;
+    book1.title = "Harry Potter";
+    book1.author = "JK Rowling";
+    book1.pages =  3000;
+
+    Book book2;
+    book2.title = "Lord of the Rings";
+    book2.author = "Tolkein";
+    book2.pages = 900;
+
+    cout << book1.title <<endl;
+    cout << book2.author <<endl;
     return 0;
 }

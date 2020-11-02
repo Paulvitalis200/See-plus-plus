@@ -15,5 +15,9 @@ int main()
     cout << "Age: " << pAge <<endl;
     cout << "Gpa: " << pGpa <<endl;
     cout << "Name: " << pName <<endl;
+
+    // Dereferencing a pointer
+    cout <<  *pAge << endl;
+    cout << *&gpa << endl;
     return 0;
 }
